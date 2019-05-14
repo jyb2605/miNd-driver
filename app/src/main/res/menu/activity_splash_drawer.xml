@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="miNd">
+        <menu>
+            <item
+                android:id="@+id/point_view"
+                android:title="  점수 확인하기" />
+            <item
+                android:id="@+id/point_use"
+                android:title="  점수 사용하기" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="  운행하기" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="  나의 평가" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="  설정" />
+    </group>
+
+</menu>
